@@ -2,13 +2,14 @@
 {
     --top_margin: 3ex;
     --content_width: 50ex;
+    --minus_content_width: calc(var(--content_width)*-1)
 }
 
 
 
 body
 {
-    background: #168AAD;
+    background-image: url("../graphics/gplaypattern_2x.png");
     z-index: 0;
     align-content: center;
     margin-top: var(--top_margin);
@@ -52,7 +53,21 @@ img
 .mark
 {
     background-size: 100% auto;
-    opacity: 0.8;
+    opacity: 0.60;
     width: var(--content_width);
-    height: 80em;
+    height: var(--content_width);
+    z-index: 1;
+}
+
+.thesame-size
+{
+    position: relative;
+    top:  var(--minus_content_width);
+    z-index: 2;
+    width: var(--content_width);
+    height: var(--content_width);
+    font-size: large;
+    font-weight: 550;
+    opacity: 1;
+    color: black;
 }
