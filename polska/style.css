@@ -1,0 +1,50 @@
+:root
+{
+    --top_margin: 3ex;
+    --content_width: 50ex;
+}
+
+
+
+body
+{
+    background: #168AAD;
+    z-index: 0;
+    align-content: center;
+    margin-top: var(--top_margin);
+    width: 100%;
+    flex-direction: column;
+}
+
+h1
+{
+    color: #6A040F;
+    text-align: center;
+    width: auto;
+}
+
+img
+{
+    width: var(--content_width);
+}
+
+.center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center div
+{
+    display: flex;
+    
+    
+}
+
+.image
+{
+    background-size: 100% 100%;
+    width: var(--content_width);
+    height: calc(var(--content_width)/2.47);
+}
