@@ -48,3 +48,11 @@ img
     width: var(--content_width);
     height: calc(var(--content_width)/2.47);
 }
+
+.mark
+{
+    background-size: 100% auto;
+    opacity: 0.8;
+    width: var(--content_width);
+    height: 80em;
+}
